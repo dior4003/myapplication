@@ -1,0 +1,10 @@
+.start{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(-175deg ,rgba(27, 152, 224, 0.829),rgba(27, 152, 224, 0.795) 50% , rgba(255, 255, 255, 0.829) 50% , rgba(255, 255, 255, 0.89) 100%);
+}
+.start-setting:hover{
+    background-color: rgba(138, 197, 248, 0.267);
+}
