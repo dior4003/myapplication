@@ -23,7 +23,7 @@ const [panel , setPanel]=useState('container')
         <>
             <div className="container-fluit start d-flex position-relative   jusify-content-center align-items-center" >
                 <div className="cover-container d-flex   p-3 mx-auto flex-column">
-                    <span className="text-info fs-3 my-2 start-setting position-absolute top-0 mx-5 end-0 btn">Settings</span>                
+                    <span className="text-white fs-3 my-2 start-setting position-absolute top-0 mx-5 end-0 btn">Settings</span>                
                    <div className="row media">
                        <div className="col d-flex justify-content-center">
                             <div className={panel} id="container">
