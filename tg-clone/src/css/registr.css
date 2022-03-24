@@ -225,7 +225,17 @@ input:focus{
 @media screen and (max-width:600px) {
     .media{
         width: 55%;
+		max-width: 90%;
     }
+	body{
+		max-width: 595px;
+	}
+	.postImg{
+		max-width: 500px;
+	}
+	.en{
+		max-width: 90%;
+	}
     .container{
        max-height: 480px;
     }
@@ -263,7 +273,6 @@ input:focus{
         border-bottom: 1px solid rgb(180, 180, 180);
         outline: none;
         padding: 6px 0px;
-        /* margin: 8px 0; */
         width: 100%;
     }
 }

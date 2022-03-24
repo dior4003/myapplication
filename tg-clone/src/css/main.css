@@ -1,0 +1,24 @@
+.ss{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    z-index: 5;
+}
+.dropp{
+    display: flex;
+    
+}
+.p-a-t-r{
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+.p-a-t-l{
+    position: absolute;
+    left: 55px;
+    top: 8px;
+
+}
+.font{
+    font-size:24px;
+}

@@ -1,34 +1,30 @@
-import React from "react"
-import { useState } from "react"
+import React,{ useState, useContext } from "react"
 import "../css/navbar.css"
 import '../css/registr.css'
+import { AuthContext } from "./hooks/context/myContext"
+import LoginBox from "./login"
 export default function Registr(){
 
-// const signUpButton = document.getElementById('signUp');
-// const signInButton = document.getElementById('signIn');
-// const container = document.getElementById('container');
 
-// signUpButton.addEventListener('click', () => {
-// 	container.classList.add("right-panel-active");
-// });
+const [panel , setPanel]=useState('container');
 
-// signInButton.addEventListener('click', () => {
-// 	container.classList.remove("right-panel-active");
-// });
-
-const [panel , setPanel]=useState('container')
+const {isLogin , setIsLogin}=useContext(AuthContext);
+const Login= (e)=>{
+    e.preventDefault()
+    setIsLogin(true)
+    
+}
 
 
     return(
         <>
             <div className="container-fluit start d-flex position-relative   jusify-content-center align-items-center" >
                 <div className="cover-container d-flex   p-3 mx-auto flex-column">
-                    <span className="text-white fs-3 my-2 start-setting position-absolute top-0 mx-5 end-0 btn">Settings</span>                
                    <div className="row media">
-                       <div className="col d-flex justify-content-center">
+                       <div className="col en d-flex justify-content-center">
                             <div className={panel} id="container">
                                 <div className="form-container sign-up-container">
-                                    <form action="#">
+                                    <form onSubmit={Login} action="/create/user">
                                         <h1>Create Account</h1>
                                         <div className="social-container">
                                             <a href="#" className="social"><i className="fab fa-facebook-f"></i></a>
@@ -43,19 +39,7 @@ const [panel , setPanel]=useState('container')
                                     </form>
                                 </div>
                                 <div className="form-container sign-in-container">
-                                    <form action="#">
-                                        <h1>Sign in</h1>
-                                        <div className="social-container">
-                                            <a href="#" className="social"><i className="fab fa-facebook-f"></i></a>
-                                            <a href="#" className="social"><i className="fab fa-google-plus-g"></i></a>
-                                            <a href="#" className="social"><i className="fab fa-linkedin-in"></i></a>
-                                        </div>
-                                        <span>or use your account</span>
-                                        <input type="email" placeholder="Email" />
-                                        <input type="password" placeholder="Password" />
-                                        <a href="#">Forgot your password?</a>
-                                        <button>Sign In</button>
-                                    </form>
+                                    <LoginBox login={Login}/>
                                 </div>
                                 <div className="overlay-container">
                                     <div className="overlay">

@@ -1,10 +1,52 @@
 .start{
     height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
     background: linear-gradient(-175deg ,rgba(27, 152, 224, 0.829),rgba(27, 152, 224, 0.795) 50% , rgba(255, 255, 255, 0.829) 50% , rgba(255, 255, 255, 0.89) 100%);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+:root{
+    --colorDefault: #2bbcff;
+    --whiteColor: #ffffff;
+}
+.hei{
+    background: linear-gradient(-175deg ,rgba(27, 152, 224, 0.829),rgba(27, 152, 224, 0.795) 50% , rgba(255, 255, 255, 0.829) 50% , rgba(255, 255, 255, 0.89) 100%);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
 }
 .start-setting:hover{
     background-color: rgba(138, 197, 248, 0.267);
+}
+.text-btn{
+    color: #fff;
+}
+.text-btn:hover{
+    color: rgba(27, 152, 224, 0.829);
+}
+.d-none{
+    display: none;
+}
+::-webkit-scrollbar{
+    width: 5px!important;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--colorDefault)!important;
+    border-radius: 50px!important;
+}
+::-webkit-scrollbar-track{
+    background-color: #000000;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#nav.fixed{
+    background-color: var(--colorDefault)!important;
+    padding: 0;
 }

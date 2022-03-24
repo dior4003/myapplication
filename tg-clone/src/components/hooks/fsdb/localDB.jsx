@@ -1,0 +1,290 @@
+
+
+export const UserJson =[
+    {
+        id: 1,
+        name:"Dior",
+        sureName:"Yo'ldashov",
+        nickName:"by_dior",
+        age:22,
+        gender:"men",
+        bio:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, dolor.",
+        img:"https://diorportifolio.netlify.app/assets/img/photo_2021-08-07_09-27-13.jpg",
+        login:"diyor3933@gmail.com",
+        password:"diyor1124",
+        lang:"uzb/ru/en"
+        
+    }
+
+]
+
+export const PostJson=[
+    {
+        id:Date.now(),
+        star:3,  
+        user:UserJson.nickName,
+        timeData:'22-03-2022',
+        postImg:"https://avatars.mds.yandex.net/i?id=8928347a911af7ee8e6bae43d5d39281-5345276-images-thumbs&n=13",
+        title:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        like:511,
+        commit:{
+            commitUser:UserJson.nickName,
+            commitTitle:"",
+            commitData:{
+                day:1,
+                month:3,
+                year:2022,
+                h:22,
+                m:34,
+                s:41
+            }
+        }
+    },
+    {
+        id:Date.now(),
+        star:3,  
+        user:UserJson.nickName,
+        timeData:'09-03-2022',
+        postImg:"https://avatars.mds.yandex.net/i?id=b7e43d833d5ca8f805d92425ca29aaa5-5869158-images-thumbs&n=13",
+        title:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        like:98,
+        commit:{
+            commitUser:UserJson.nickName,
+            commitTitle:"",
+            commitData:{
+                day:1,
+                month:3,
+                year:2022,
+                h:22,
+                m:34,
+                s:41
+            }
+        }
+    },
+    {
+        id:Date.now(),
+        star:3,  
+        user:UserJson.nickName,
+        timeData:'16-01-2022',
+        postImg:"https://avatars.mds.yandex.net/i?id=14c6997850c02a76720734758f9e489c-3761236-images-thumbs&n=13",
+        title:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        like:101,
+        commit:{
+            commitUser:UserJson.nickName,
+            commitTitle:"",
+            commitData:{
+                day:1,
+                month:3,
+                year:2022,
+                h:22,
+                m:34,
+                s:41
+            }
+        }
+    },
+    {
+        id:Date.now(),
+        star:3,  
+        user:UserJson.nickName,
+        timeData:'07-03-2022',
+        postImg:"https://avatars.mds.yandex.net/i?id=20e34962403dc90e1ce4bbe5ce5ad08f-5624148-images-thumbs&n=13",
+        title:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        like:238,
+        commit:{
+            commitUser:UserJson.nickName,
+            commitTitle:"",
+            commitData:{
+                day:1,
+                month:3,
+                year:2022,
+                h:22,
+                m:34,
+                s:41
+            }
+        }
+    },
+    {
+        id:Date.now(),
+        star:3,  
+        user:UserJson.nickName,
+        timeData:'21-03-2022',
+        postImg:"https://avatars.mds.yandex.net/i?id=e032f826856ce31edd25af2b8b234ec5-4080301-images-thumbs&n=13",
+        title:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        like:1034,
+        commit:{
+            commitUser:UserJson.nickName,
+            commitTitle:"",
+            commitData:{
+                day:1,
+                month:3,
+                year:2022,
+                h:22,
+                m:34,
+                s:41
+            }
+        }
+    },
+    {
+        id:Date.now(),
+        star:3,  
+        user:UserJson.nickName,
+        timeData:'22-03-2022',
+        postImg:"https://avatars.mds.yandex.net/i?id=0438e5052b9243f7196ea0db8fdefb3e-4599018-images-thumbs&n=13",
+        title:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        like:561,
+        commit:{
+            commitUser:UserJson.nickName,
+            commitTitle:"",
+            commitData:{
+                day:1,
+                month:3,
+                year:2022,
+                h:22,
+                m:34,
+                s:41
+            }
+        }
+    },
+    {
+        id:Date.now(),
+        star:3,  
+        user:UserJson.nickName,
+        timeData:'22-03-2022',
+        postImg:"https://avatars.mds.yandex.net/i?id=71d86d94ac7c6b00429333e62acf7353-5501353-images-thumbs&n=13",
+        title:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        like:78,
+        commit:{
+            commitUser:UserJson.nickName,
+            commitTitle:"",
+            commitData:{
+                day:1,
+                month:3,
+                year:2022,
+                h:22,
+                m:34,
+                s:41
+            }
+        }
+    },
+    {
+        id:Date.now(),
+        star:3,  
+        user:UserJson.nickName,
+        timeData:'22-03-2022',
+        postImg:"https://avatars.mds.yandex.net/i?id=692b8d11864bb0b65f84d0bfa43afe39-5307457-images-thumbs&n=13",
+        title:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        like:41,
+        commit:{
+            commitUser:UserJson.nickName,
+            commitTitle:"",
+            commitData:{
+                day:1,
+                month:3,
+                year:2022,
+                h:22,
+                m:34,
+                s:41
+            }
+        }
+    },
+    {
+        id:Date.now(),
+        star:3,  
+        user:UserJson.nickName,
+        timeData:'22-03-2022',
+        postImg:"https://avatars.mds.yandex.net/i?id=54a5b91c423bfc0a8bff65646e349de0-5537456-images-thumbs&n=13",
+        title:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        like:238,
+        commit:{
+        commitUser:UserJson.nickName,
+    commitTitle:"",
+commitData:{
+    day:1,
+    month:3,
+    year:2022,
+    h:22,
+    m:34,
+    s:41
+}}
+    },
+    {
+        id:Date.now(),
+        star:3,  
+        user:UserJson.nickName,
+        timeData:'22-03-2022',
+        postImg:"https://avatars.mds.yandex.net/i?id=67bf5b631463ba7b4e8bc39552b68e2d-4290069-images-thumbs&n=13",
+        title:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        like:238,
+        commit:{
+        commitUser:UserJson.nickName,
+    commitTitle:"",
+commitData:{
+    day:1,
+    month:3,
+    year:2022,
+    h:22,
+    m:34,
+    s:41
+}}
+    },
+    {
+        id:Date.now(),
+        star:3,  
+        user:UserJson.nickName,
+        timeData:'12-03-2021',
+        postImg:"https://avatars.mds.yandex.net/i?id=f33adde96adfe891cbd5d815b833f450-5227706-images-thumbs&n=13",
+        title:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        like:189,
+        commit:{
+        commitUser:UserJson.nickName,
+    commitTitle:"",
+commitData:{
+    day:1,
+    month:3,
+    year:2022,
+    h:22,
+    m:34,
+    s:41
+}}
+    },
+    {
+        id:Date.now(),
+        star:3,  
+        user:UserJson.nickName,
+        timeData:'22-02-2022',
+        postImg:"https://avatars.mds.yandex.net/i?id=26ae4ab53b930c7f5791a3d0ef82bfb8-5492246-images-thumbs&n=13",
+        title:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        like:28,
+        commit:{
+        commitUser:UserJson.nickName,
+    commitTitle:"",
+commitData:{
+    day:1,
+    month:3,
+    year:2022,
+    h:22,
+    m:34,
+    s:41
+}}
+    },
+    {
+        id:Date.now(),
+        star:3,  
+        user:UserJson.nickName,
+        timeData:'02-03-2022',
+        postImg:"https://avatars.mds.yandex.net/i?id=2a00000179e6c112f5ee4d37733cc9a6b75d-4536963-images-thumbs&n=13",
+        title:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        like:38,
+        commit:{
+        commitUser:UserJson.nickName,
+    commitTitle:"",
+commitData:{
+    day:1,
+    month:3,
+    year:2022,
+    h:22,
+    m:34,
+    s:41
+}}
+    },
+]

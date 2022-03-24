@@ -1,0 +1,29 @@
+.navbarStyle{
+    z-index: 999;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #2bbcff !important;
+}
+.list-group-item{
+    background-color: transparent;
+    border: none;
+}
+.bi-house-fill:hover ,.bi-person-fill:hover, .bi-messenger:hover{
+    color: #555;
+    border-bottom: 5px solid #eee;
+}
+
+.navbar-topFixed{
+    z-index: 999;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2bbcff !important;
+    
+}
+.scrolling{
+    overflow: scroll;
+}

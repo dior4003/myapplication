@@ -1,4 +1,5 @@
-import Start from "../home";
+import NavbarFixed from "../navbarFixedBottom";
+import MainHome from "../privateComponents/mainHome";
 import Registr from "../registr";
 
 
@@ -9,7 +10,8 @@ export const PublicRoutes =[
 
 ];
 export const PrivateRoutes=[
-    {path:"/se" , element:<Start/> , exact:true}
+    {path:"*" , element:<MainHome/> , exact:true},
+    {path:"/user" , element:<MainHome/> , exact:true}
 
 
-];
+]; 
