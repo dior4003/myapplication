@@ -1,8 +1,8 @@
 import '../../css/main.css'
 import { useState , useContext } from 'react'
 import MyModal from "../modal"
-import ShareIn from './ui/share'
-import MyAlert from './ui/alert'
+import ShareIn from './UI/share'
+import MyAlert from './UI/alert'
 import { AuthContext } from '../hooks/context/myContext'
 
 
